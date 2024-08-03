@@ -42,12 +42,14 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    border: 1px solid;
     padding: 30px 120px 30px 120px;
 }
 .input-div {
     width: 100%;
     font-weight: bold;
+}
+.input-div p {
+    padding-bottom: 5px;
 }
 .input-div input {
     background-color: #EEEBEB;
@@ -56,6 +58,34 @@
     box-shadow: none;
     border-radius: 5px;
     width: 100%;
+}
+.sign-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 150px 30px 150px;
+    gap: 5px;
+}
+#signin {
+    border: none;
+    height: 40px;
+    background-color: #31363F;
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#signin:hover {
+    background-color: #393f49;
+}
+.sign-div p {
+    text-align: center;
+    font-size: 16px;
+}
+#signup {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
 }
 .info-section {
     background-color: #393939;

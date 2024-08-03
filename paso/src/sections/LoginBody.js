@@ -23,11 +23,13 @@ let LoginBody = () => {
                     </div>
                 </div>
                 <div className="sign-div">
-                    <input type="button" id="signin" />
+                    <input type="button" id="signin" value="Sign In" />
+                    <p>Forgot Password?</p>
                 </div>
+                <p id="signup">Don't have an account? Sign up</p>
             </div>
             <div className="info-section">
-                <p>d</p>
+                <p>p diddy</p>
             </div>
         </div>
     );
