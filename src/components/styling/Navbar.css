@@ -1,0 +1,77 @@
+#navbar-mb {
+    background-color: var(--black2);
+}
+#logo-div-mb {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+#logo-div-mb img {
+    width: 50px;
+    height: 50px;
+}
+#logo-div-mb p {
+    font-family: "Archivo Black";
+    color: var(--gray5);
+    font-size: 16px;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: var(--black2);
+}
+#logo-div {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+#logo-div img {
+    width: 50px;
+    height: 50px;
+}
+#logo-div {
+    font-family: "Archivo Black";
+    color: var(--gray5);
+    font-size: 16px;
+}
+#navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#navbar-links a {
+    font-family: "IBM Plex Mono";
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--white);
+}
+#divider {
+    width: 2px;
+    height: 25px;
+    background-color: var(--black4);
+}
+#sign-div {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#signup {
+    font-family: "Inter";
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--blue);
+    padding: 10px 20px 10px 20px; 
+}
+#signin {
+    font-family: "IBM Plex Mono";
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--white);
+
+}

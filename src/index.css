@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --black2: #28282A;
+  --black3: #31363F;
+  --black4: #4B4C50;
+  --black5: #1E1E1E;
+  --gray1: #B4B4B4;
+  --gray2: #9E9E9E;
+  --gray3: #EEEBEB;
+  --gray4: #C9C9C9;
+  --gray5: #E5E7EA;
+  --gray6: #969494;
+  --gray7: #D9D9D9;
+  --gray8: #D3D3D3;
+  --dblue: #003152;
+  --dblue2: #31363F;
+  --blue: #1F7FBF;
+  --lblue: #B2C4D2;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
