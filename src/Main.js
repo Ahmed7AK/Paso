@@ -1,6 +1,6 @@
-
 import './Main.css';
 import Navbar from "./components/Navbar.js"
+import Intro from './components/Intro.js';
 
 let deviceType = () => {
   if (window.innerWidth <= 900) {
@@ -15,6 +15,8 @@ function Main() {
   return (
    <div>
       <Navbar device={deviceType()} />
+      
+      <Intro device={deviceType()} />
    </div>
   );
 }

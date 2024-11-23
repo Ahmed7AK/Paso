@@ -1,5 +1,5 @@
-import "./styling/Navbar.css"
-import logo from "../images/8.png"
+import "./styling/Navbar.css";
+import logo from "../images/8.png";
 import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
